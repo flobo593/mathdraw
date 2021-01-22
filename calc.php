@@ -84,5 +84,10 @@ function Module8($input)
     6 => 0-($e*$i[2]-$f*$i[2]+$g*$r[2]-$h*$r[2]),
     7 => $d-$c-($e*$i[3]-$f*$i[3]+$g*$r[3]-$h*$r[3])
   ];
+
+  $output = [
+    "Sine" => $outputsin,
+    "Cosine" => $outputcos
+  ];
 }
 ?>
