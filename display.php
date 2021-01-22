@@ -32,6 +32,8 @@ echo "Cosine: <br />";
 for ($n=0; $n < 8; $n++) {
   echo $cos8[$n]."<br />";
 }
+
+var_dump(Module8($teschd2));
 ?>
 </body>
 </html>
