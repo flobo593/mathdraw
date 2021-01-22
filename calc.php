@@ -89,5 +89,6 @@ function Module8($input)
     "Sine" => $outputsin,
     "Cosine" => $outputcos
   ];
+  return $output;
 }
 ?>
