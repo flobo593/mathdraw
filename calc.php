@@ -8,7 +8,7 @@ function bitReverse($samples) //$samples = Array of Samples
     $ibin = decbin($i);
     $istr = strval($ibin);
     $rstr = strrev($ibin);
-    $rbin = intval($rstr);
+    $rbin = floatval($rstr);
     $ri = bindec($rbin);
 
     $arrayr[$ri] = $samples[$i];
